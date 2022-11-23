@@ -7,13 +7,13 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Ruoyu</title>
-        <meta name="description" content="Ruoyu's Personal Page" />
+        <meta name="description" content="Ruoyu &apos;s Personal Page" />
         <link rel="icon" href="/logo.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Ruoyu Wang's Personal Page!
+          Welcome to Ruoyu Wang &apos;s Personal Page!
         </h1>
 
         <p className={styles.description}>
