@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import Image from 'next/image';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
-export default function Home() {
+export default function Index() {
   return (
     <div className={styles.container}>
       <Head>
@@ -25,11 +25,16 @@ export default function Home() {
             <h2>Github &rarr;</h2>
             <p>Explore my projects</p>
           </a>
+
+          <Link href="/gallery" className={styles.card}>
+            <h2>Gallery &rarr;</h2>
+            <p>Explore my photos</p>
+          </Link>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a>Ruoyu</a>
+        <p>Ruoyu</p>
       </footer>
     </div>
   );

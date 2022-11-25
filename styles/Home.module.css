@@ -15,7 +15,6 @@
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
@@ -26,6 +25,11 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+}
+
+.footer p {
+  font-family: 'Edwardian Script ITC', Snell Roundhand, cursive, Brush Script MT, Brush Script Std, cursive;
+  font-size: 1.5rem;
 }
 
 .title a {
@@ -106,6 +110,17 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.blurImage {
+  border-radius: 25px;
+  padding: 20px;
+  align-items: center;
+}
+
+.blurImage h2 {
+  margin-top: 0;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
