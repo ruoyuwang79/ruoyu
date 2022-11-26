@@ -30,6 +30,12 @@ export default function Index() {
             <h2>Gallery &rarr;</h2>
             <p>Explore my photos</p>
           </Link>
+
+          <Link href="/files/RuoyuWang_resume_2022Fall.pdf" className={styles.card}>
+            <h2>Resume &rarr;</h2>
+            <p>My CV</p>
+            <p>(Last Edited: Aug. 2022)</p>
+          </Link>
         </div>
       </main>
 
