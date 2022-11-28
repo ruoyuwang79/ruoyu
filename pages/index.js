@@ -21,21 +21,36 @@ export default function Index() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://github.com/ruoyuwang79" className={styles.card}>
-            <h2>Github &rarr;</h2>
-            <p>Explore my projects</p>
-          </a>
+          <Link href="/publications" className={styles.card}>
+            <h2>Publications &rarr;</h2>
+            <p>Explore my publications</p>
+          </Link>
+
+          <Link href="/files/RuoyuWang_resume_2022Fall.pdf" className={styles.card}>
+            <h2>Resume &rarr;</h2>
+            <p>Last Edited: Aug. 2022</p>
+          </Link>
 
           <Link href="/gallery" className={styles.card}>
             <h2>Gallery &rarr;</h2>
             <p>Explore my photos</p>
           </Link>
 
-          <Link href="/files/RuoyuWang_resume_2022Fall.pdf" className={styles.card}>
-            <h2>Resume &rarr;</h2>
-            <p>My CV</p>
-            <p>(Last Edited: Aug. 2022)</p>
-          </Link>
+          <a href="https://github.com/ruoyuwang79" className={styles.card}>
+            <h2>Github &rarr;</h2>
+            <p>Explore past projects</p>
+          </a>
+        </div>
+
+        <div className={styles.about}>
+          <h2>About</h2>
+          <p>
+            Ruoyu Wang is a 3rd-year Ph.D. student who majored in Computer Engineering at Lehigh University.
+          </p>
+          <h2>Research interests</h2>
+          <p>&bull; Machine Learning</p>
+          <p>&bull; Computer Architecture</p>
+          <p>&bull; Underwater Communication</p>
         </div>
       </main>
 

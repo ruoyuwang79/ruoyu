@@ -123,6 +123,41 @@
   text-align: center;
 }
 
+.publication {
+  text-align: center;
+}
+
+.publication h2 {
+  text-align: left;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.publication p {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.about {
+  text-align: left;
+}
+
+.about h2 {
+  margin: 4rem 1rem 1rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.about h3 {
+  margin: 3rem 1rem 1rem;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.about p {
+  font-size: 1.5rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
