@@ -40,12 +40,18 @@ export default function Index() {
             <h2>Github &rarr;</h2>
             <p>Explore past projects</p>
           </a>
+
+          <Link href="https://ruoyuwang79.github.io/" className={styles.card}>
+            <h2>Old Homepage &rarr;</h2>
+            <p>Legacy</p>
+          </Link>
         </div>
 
         <div className={styles.about}>
           <h2>About</h2>
           <p>
-            Ruoyu Wang is a 3rd-year Ph.D. student who majored in Computer Engineering at Lehigh University.
+            Ruoyu Wang is a 3rd-year Ph.D. student who majored in Computer Engineering at Lehigh University. 
+            His research interests are Machine Learnining (Neural Networks, Reinforcement Learning), Computer Architecture (NN Accelerators, Parallel Computing Architecture), and Underwater Acoustic Communication (Medium Access Control). 
           </p>
           <h2>Research interests</h2>
           <p>&bull; Machine Learning</p>
