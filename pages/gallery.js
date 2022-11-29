@@ -31,10 +31,11 @@ export default function Gallery() {
         <h1 className={styles.title}>
           Gallery!
         </h1>
-
+        <div className={styles.gallery}>
         {images.map((image) => (
           <BlurImage key={image.image} image={image} />
           ))}
+        </div>
       </main>
 
       <footer className={styles.footer}>

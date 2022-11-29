@@ -112,6 +112,14 @@
   margin-left: 0.5rem;
 }
 
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
 .blurImage {
   border-radius: 25px;
   padding: 20px;
@@ -167,6 +175,14 @@
 
   .about {
     text-align: left;
+    width: 100%;
+  }
+
+  .gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
   }
 }
